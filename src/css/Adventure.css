@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;700&family=Poppins:wght@400;500;700&family=Red+Rose:wght@400;700&family=Rubik&display=swap');
+
+.adventure  {
+    background: #A02279;
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Red Rose', cursive;
+}
+.adventure .adventure-text {
+    color: #fff;
+    flex-basis: 50%;
+}
+.adventure .adventure-text h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0 0 35px;
+}
+.adventure .adventure-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 0 0 57px;
+}
+.adventure .adventure-text button{
+    border: none;
+    padding: 14px 33px;
+    background: #fff;
+    border-radius: 8px;
+    color: #A02279;
+}
+
+
+ 
+@media screen and (max-width: 1200px){
+    .adventure  {
+        padding: 50px;
+    }
+    .adventure .adventure-text {
+        flex-basis: 40%;
+    }
+    .adventure-img {
+        flex-basis: 60%;
+    }
+    .adventure-img img{
+        width: 100%;    
+    }
+}
+
+@media screen and (max-width: 990px){
+    .adventure .adventure-text h1{
+        font-size: 32px;
+    }
+    .adventure .adventure-text p{
+        font-size: 16px;
+    }
+    .adventure .adventure-text {
+        flex-basis: 50%;
+    }
+    .adventure-img {
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width: 670px){
+    .adventure .adventure-text h1{
+        font-size: 24px;
+        margin: 0 0 20px;
+    }
+    .adventure .adventure-text p{
+        line-height: 24px;
+    }
+    .adventure  {
+        background: #A02279;
+        padding: 48px 24px 100px;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .adventure .adventure-text {
+        flex-basis: 50%;
+    }
+    .adventure-img {
+        flex-basis: 50%;
+    }
+}

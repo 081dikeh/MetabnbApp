@@ -1,0 +1,16 @@
+ul li a, #onesidepad, #onesidepad2 {
+    font-size: 20px;
+}
+#onesidepad {
+    padding: 0 24px;
+}
+#onesidepad2 {
+    padding: 0 24px;
+}
+
+
+@media  screen and (max-width:1050px) {
+    ul li a, #onesidepad {
+        font-size: 16px;
+    }
+}
